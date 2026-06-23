@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+# Example: msprobe train-inference consistency dump (FSDP + vLLM async, engine worker)
+# Copy and adapt paths for your environment. Do NOT edit the original training script.
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ORIG_SCRIPT="${SCRIPT_DIR}/run_your_training.sh"
+ACTOR_CONFIG="${SCRIPT_DIR}/config_actor.json"
+GENERATE_CONFIG="${SCRIPT_DIR}/config_generate.json"
+
+export DUMP_ON=1
+export PROMPTS_ONLY=1
+export TORCHDYNAMO_DISABLE=1
+export DUMP_PHASE=log_prob
+export MSPROBE_ACTOR_CONFIG="${ACTOR_CONFIG}"
+
+CONSIST_GPUS="${GPUS_PER_NODE:-4}"
+CONSIST_NNODES="${NNODES:-1}"
+CONSIST_WORLD_SIZE=$((CONSIST_GPUS * CONSIST_NNODES))
+
+CONSIST_TRAIN_BATCH_SIZE=1
+CONSIST_MINI_BATCH_SIZE=1
+CONSIST_MICRO_BATCH_SIZE=1
+
+# 训推一致优先关闭 SP
+ORIG_SP=$(grep -E '^sp_size=' "${ORIG_SCRIPT}" | tail -1 | cut -d= -f2 | tr -d ' ')
+ORIG_SP=${ORIG_SP:-1}
+CONSIST_SP=1
+CONSIST_DP=$((CONSIST_WORLD_SIZE / CONSIST_SP))
+CONSIST_N_RESP=${CONSIST_DP}
+CONSIST_GEN_TP=${CONSIST_GPUS}
+CONSIST_GEN_DP=1
+CONSIST_AGENT_WORKERS=1
+
+TMP_SCRIPT="$(mktemp)"
+sed -e 's/actor_rollout_ref\.rollout\.skip\.enable=True/actor_rollout_ref.rollout.skip.enable=False/' \
+  "${ORIG_SCRIPT}" > "${TMP_SCRIPT}"
+trap 'rm -f "${TMP_SCRIPT}"' EXIT
+
+bash "${TMP_SCRIPT}" \
+  algorithm.rollout_correction.rollout_is=null \
+  algorithm.rollout_correction.rollout_rs=null \
+  algorithm.rollout_correction.rollout_rs_threshold=null \
+  algorithm.rollout_correction.rollout_is_batch_normalize=False \
+  data.train_batch_size=${CONSIST_TRAIN_BATCH_SIZE} \
+  actor_rollout_ref.actor.ppo_mini_batch_size=${CONSIST_MINI_BATCH_SIZE} \
+  actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu=${CONSIST_MICRO_BATCH_SIZE} \
+  actor_rollout_ref.ref.log_prob_micro_batch_size_per_gpu=${CONSIST_MICRO_BATCH_SIZE} \
+  actor_rollout_ref.rollout.log_prob_micro_batch_size_per_gpu=${CONSIST_MICRO_BATCH_SIZE} \
+  actor_rollout_ref.rollout.n=${CONSIST_N_RESP} \
+  actor_rollout_ref.rollout.tensor_model_parallel_size=${CONSIST_GEN_TP} \
+  actor_rollout_ref.rollout.data_parallel_size=${CONSIST_GEN_DP} \
+  actor_rollout_ref.rollout.agent.num_workers=${CONSIST_AGENT_WORKERS} \
+  actor_rollout_ref.actor.ulysses_sequence_parallel_size=${CONSIST_SP} \
+  actor_rollout_ref.ref.ulysses_sequence_parallel_size=${CONSIST_SP} \
+  actor_rollout_ref.actor.use_dynamic_bsz=False \
+  actor_rollout_ref.ref.log_prob_use_dynamic_bsz=False \
+  actor_rollout_ref.rollout.log_prob_use_dynamic_bsz=False \
+  trainer.val_before_train=False \
+  trainer.balance_batch=False \
+  trainer.total_training_steps=1 \
+  ++actor_rollout_ref.rollout.engine_kwargs.vllm.additional_config.dump_config_path="${GENERATE_CONFIG}"

@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+# Example: msprobe train-inference consistency dump (Megatron + vLLM)
+# 训推一致：train_tp/pp/ep 与 rollout tensor_parallel / pipeline_parallel / expert 逐项相同。
+# 生产脚本常 train_pp=2 但未设 rollout PP → 采集须覆盖 pipeline_model_parallel_size=train_pp。
+
+VERL_ROOT="${VERL_ROOT:?请设置 VERL_ROOT 为实际 verl 源码根目录}"
+export PYTHONPATH="${VERL_ROOT}${PYTHONPATH:+:${PYTHONPATH}}"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ORIG_SCRIPT="${SCRIPT_DIR}/run_qwen2.5-3b-megatron.sh"
+
+read_script_var() {
+  local key="$1" default="${2:-1}"
+  local val
+  val=$(grep -E "^${key}=" "${ORIG_SCRIPT}" | tail -1 | cut -d= -f2 | tr -d ' ' || true)
+  echo "${val:-${default}}"
+}
+
+export DUMP_ON=1 PROMPTS_ONLY=1 TORCHDYNAMO_DISABLE=1 DUMP_PHASE=log_prob
+export MSPROBE_ACTOR_CONFIG="${SCRIPT_DIR}/config_actor.json"
+
+TRAIN_TP=$(read_script_var train_tp 1)
+TRAIN_PP=$(read_script_var train_pp 1)
+TRAIN_EP=$(read_script_var train_ep 1)
+GEN_TP=$(read_script_var gen_tp 1)
+GEN_DP=$(read_script_var gen_dp 1)
+GEN_EP=$(read_script_var gen_ep 1)
+GEN_PP="${GEN_PP:-${TRAIN_PP}}"
+
+NPUS_PER_NODE="${NPUS_PER_NODE:-2}"
+
+bash "${ORIG_SCRIPT}" \
+  trainer.n_gpus_per_node="${NPUS_PER_NODE}" \
+  data.train_batch_size=1 \
+  actor_rollout_ref.rollout.pipeline_model_parallel_size="${GEN_PP}" \
+  actor_rollout_ref.rollout.tensor_model_parallel_size="${GEN_TP}" \
+  actor_rollout_ref.rollout.data_parallel_size="${GEN_DP}" \
+  actor_rollout_ref.rollout.expert_parallel_size="${GEN_EP}" \
+  trainer.balance_batch=False \
+  trainer.total_training_steps=1 \
+  ++actor_rollout_ref.rollout.engine_kwargs.vllm.additional_config.dump_config_path="${SCRIPT_DIR}/config_generate.json"

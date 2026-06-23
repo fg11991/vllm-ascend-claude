@@ -1,0 +1,13 @@
+{
+  "task": "tensor",
+  "rank": [],
+  "step": [],
+  "level": "mix",
+  "async_dump": false,
+  "tensor": {
+    "scope": [],
+    "list": [],
+    "data_mode": ["all"],
+    "summary_mode": "statistics"
+  }
+}
