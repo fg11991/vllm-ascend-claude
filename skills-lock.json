@@ -1,0 +1,1325 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-for-science-ai4s-basic": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/ai4s-basic/SKILL.md",
+      "computedHash": "06b1ee45113abdd89bbf4fcfd591d998a6e621fa3ccfb74f3e19da6090d92340"
+    },
+    "ai-for-science-ai4s-main": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/ai4s-main/SKILL.md",
+      "computedHash": "2e717dc76037d7fd453389f9b3800830025fe8d83adc49ee31063e9eac495d77"
+    },
+    "ai-for-science-ai4s-profiling": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/ai4s-profiling/SKILL.md",
+      "computedHash": "14a9aa79b2d419066934e513391e048976693895bd123b52268681c0a0f00e39"
+    },
+    "ai-for-science-ankh-ascend-npu-skill": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/ankh/SKILL.md",
+      "computedHash": "e0a2fcc6bfe9a1fa8415fe9be7816099693d94bbd18c88a04675d3d02ba96c6c"
+    },
+    "ai-for-science-ascend-tf-community": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/tf-framework/ascend-tf-community/SKILL.md",
+      "computedHash": "97e4384d0d326555a4c08076a5e9d338c85092f03fb6f98d47c367774375b0b4"
+    },
+    "ai-for-science-boltz2": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/boltz2/SKILL.md",
+      "computedHash": "4677ca1a891b5610dfb8021a1f82e7d4c2463ae75b51ff2829604f498cc4d42c"
+    },
+    "ai-for-science-boltzgen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/boltzgen/SKILL.md",
+      "computedHash": "4b477508b8923245dafcd279139ad8fc051c953903e1f695f91621f5d656085b"
+    },
+    "ai-for-science-deepfri": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/deepfri/SKILL.md",
+      "computedHash": "f3112f24052cbac5520c8c811b511e16c5a7cdaf7d45a56f7414ee6ced52d77a"
+    },
+    "ai-for-science-deepfri-tf-npu": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/deepfri-tf-npu/SKILL.md",
+      "computedHash": "4851a7e6ecfdffa04980860a6170ac78c03295e8d3c7db6d39a70754d4730ff9"
+    },
+    "ai-for-science-diffsbdd": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/diffsbdd/SKILL.md",
+      "computedHash": "0b58a72b3a1d442290f32adad4dff6943beec93ee412f1164f66949774ceffe1"
+    },
+    "ai-for-science-generator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/generator/SKILL.md",
+      "computedHash": "29a76661b169d108d72fdab3d3776a8baf59bf0ed1a2bf3dd9b02acfe54e6aa3"
+    },
+    "ai-for-science-oligoformer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/oligoformer/SKILL.md",
+      "computedHash": "a80872785bc1a2840b399bd32f9b3f1a373de9d473b9b36d93918c322b84b606"
+    },
+    "ai-for-science-proteinbert": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/models/proteinbert/SKILL.md",
+      "computedHash": "86c21b5ee4f45d95eae0d7b5d288cf3d4fbf2d546a7696d68bb8082583dc2106"
+    },
+    "ai-for-science-tf-to-pytorch": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai-for-science/tf-framework/tf-to-pytorch/SKILL.md",
+      "computedHash": "c9c3a179c778f0e262e1f0629ea4e029aa1ac29f361c6c7bcf335017d2e8e234"
+    },
+    "ais-bench": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/ais-bench/SKILL.md",
+      "computedHash": "790fdcd714c734f2bb422f9ca0d198f8fa9a1d29a35b2b0701a335ac2cf13a34"
+    },
+    "ascend-avi-vnpu": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/ascend-avi-vnpu/SKILL.md",
+      "computedHash": "0c8c173b69e251d21c07816dfc8cd9c3c43b7e171d0ab23ef5defb7b076feb27"
+    },
+    "ascend-dmi": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/ascend-dmi/SKILL.md",
+      "computedHash": "f568c5fabb9cea6e24f8b137fe24a381040cc0e4e6190c0dc4ecca738316765b"
+    },
+    "ascend-docker": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/ascend-docker/SKILL.md",
+      "computedHash": "82486918f88dd53c9d2c0086c17d01188805b9d0c8286fc4e9f76e9cd58c7e2a"
+    },
+    "ascend-migration-analysis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/ascend-migration-analysis/SKILL.md",
+      "computedHash": "47a91287a088e11ca4b037cac7939f767a5d0931401534d36bc125bad6ac0610"
+    },
+    "ascend-opplugin": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops/ascend-opplugin/SKILL.md",
+      "computedHash": "5030a78d3dee46321ea0ca3be3b7df8100393aed80ea10f8d080375bb852b28b"
+    },
+    "ascendc": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops/ascendc/SKILL.md",
+      "computedHash": "9123a1b18f92a40ff7cf12529e644a26825dce94b16de79d1ea3ede6930797b9"
+    },
+    "atc-model-converter": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/atc-model-converter/SKILL.md",
+      "computedHash": "d3a34c4bc840dc8c5c84185eac0df2da60ef0fb9e1455269d073f8b8caaf4d9d"
+    },
+    "create-pr": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-pr/SKILL.md",
+      "computedHash": "6ce950d5552bc3134a015ff3f855fddbb0888e7320c6931ed993d812021029f4"
+    },
+    "diffusers-ascend-env-setup": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/diffusers-ascend/diffusers-ascend-env-setup/SKILL.md",
+      "computedHash": "42ff4246450aea18c199b76ddd339d41b500516f48c7b597ec6dfa24f16542c8"
+    },
+    "diffusers-ascend-pipeline": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/diffusers-ascend/diffusers-ascend-pipeline/SKILL.md",
+      "computedHash": "e9a51de16b786064ac52504c22bc76988fc5e4302cb7cc3a8fe5405d75aeb887"
+    },
+    "diffusers-ascend-weight-prep": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/diffusers-ascend/diffusers-ascend-weight-prep/SKILL.md",
+      "computedHash": "6a21bc78e3aee83be68dea84d6a24279861588c2645a474ff4953d71f17d6ac6"
+    },
+    "external-cannbot-graph-torch-custom-ops-guide": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/graph/torch-custom-ops-guide/SKILL.md",
+      "computedHash": "7df1412edecee8d5eafea04583de7146aa71d13863cd777d63a3bc83e662a191"
+    },
+    "external-cannbot-graph-torch-npugraph-ex-compile-error-diagnosis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/graph/torch-npugraph-ex-compile-error-diagnosis/SKILL.md",
+      "computedHash": "a17e7a73261e772684db9496291fec8de3249a7dfd30933f196de2aa2260151f"
+    },
+    "external-cannbot-graph-torch-npugraph-ex-dfx-triage": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/graph/torch-npugraph-ex-dfx-triage/SKILL.md",
+      "computedHash": "024e1b6db7ca7c4bf384b4acf8ad6e283bfcec16b725aec60f46b4a437c3b1f0"
+    },
+    "external-cannbot-graph-torch-npugraph-ex-knowledge": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/graph/torch-npugraph-ex-knowledge/SKILL.md",
+      "computedHash": "3354460852d7e3589a41942b99d1b02acaa7463e56b2f94c102fe912466870ef"
+    },
+    "external-cannbot-graph-torch-npugraph-ex-runtime-error-diagnosis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/graph/torch-npugraph-ex-runtime-error-diagnosis/SKILL.md",
+      "computedHash": "0fbaa143fa31fa7df38e344a765ace3958780c1d9a2cad261f518d2bbd03ab59"
+    },
+    "external-cannbot-graph-torch-npugraph-ex-template": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/graph/torch-npugraph-ex-template/SKILL.md",
+      "computedHash": "3ba0d3f44fd343ce42e14879988c544649a8b398eb5ebffd0d50394a23c03982"
+    },
+    "external-cannbot-model-model-infer-fusion": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-fusion/SKILL.md",
+      "computedHash": "8757eaa8f2217f4b9ed7894a3be8a14843780ecdcb2473cfe1e67f89e8ff02f6"
+    },
+    "external-cannbot-model-model-infer-graph-mode": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-graph-mode/SKILL.md",
+      "computedHash": "3579a9d6312c03b2449f594f889dcd4288c943c61cb2dc77c9e38ba26b999ac1"
+    },
+    "external-cannbot-model-model-infer-kvcache": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-kvcache/SKILL.md",
+      "computedHash": "fcfa6897a012b00b23bdb324b89ce0a58f3e55e153a79135b710a62c901251ae"
+    },
+    "external-cannbot-model-model-infer-migrator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-migrator/SKILL.md",
+      "computedHash": "749f114cf68d664543b4d5a91e7f82c70bbeeaac6ad4dc7632fcfbc69d1cdff7"
+    },
+    "external-cannbot-model-model-infer-multi-stream": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-multi-stream/SKILL.md",
+      "computedHash": "fe2c9478807ba19ca27e6e08d501b744c747aa1795c11feda643a3be2ab57f72"
+    },
+    "external-cannbot-model-model-infer-parallel-analysis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-parallel-analysis/SKILL.md",
+      "computedHash": "e9b267113bf653e6eb9ee7f39bda3eecbaa7a8c74a527d469920deff54cabe68"
+    },
+    "external-cannbot-model-model-infer-parallel-impl": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-parallel-impl/SKILL.md",
+      "computedHash": "115e063e1ce24821711dc9260ede9cce70a05ab921d87847f1ba86b81e86e217"
+    },
+    "external-cannbot-model-model-infer-precision-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-precision-debug/SKILL.md",
+      "computedHash": "d6e0ffb3a7be2a27f3843055e6e2e17ef4f1f975fca046c6761c7c0ad5fdb191"
+    },
+    "external-cannbot-model-model-infer-prefetch": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-prefetch/SKILL.md",
+      "computedHash": "a813e3b3893ffa02da3dd6fdbe9149d297a65410824fa7b79c69bb24d11d9876"
+    },
+    "external-cannbot-model-model-infer-runtime-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-runtime-debug/SKILL.md",
+      "computedHash": "93df572d29c4fe527a24191345eda2ee4f36a0f7606b7c20f26d601ef2bcea8b"
+    },
+    "external-cannbot-model-model-infer-superkernel": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/model/model-infer-superkernel/SKILL.md",
+      "computedHash": "36af69625ebc9844d9033b1b98a2da5c41c4de03151dd09838308b9d11cf251b"
+    },
+    "external-cannbot-ops-aiss-tiling-solver": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/aiss-tiling-solver/SKILL.md",
+      "computedHash": "e1efb4269cf0c5b8f4c9ac406aa05c1d9aa1dccdd4c3cfce4c789a77432dff6e"
+    },
+    "external-cannbot-ops-ascendc-api-best-practices": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-api-best-practices/SKILL.md",
+      "computedHash": "adf841ba548e79315de6de153c9e910316e363f012022c3ccbb71dea17c40b66"
+    },
+    "external-cannbot-ops-ascendc-blaze-best-practice": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-blaze-best-practice/SKILL.md",
+      "computedHash": "79e0d44a76fd2e5e5164c483eb933a2b6039f247f0ad167e857e7c6eba1212f1"
+    },
+    "external-cannbot-ops-ascendc-code-review": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-code-review/SKILL.md",
+      "computedHash": "790d33d65ac0f4150b8880debe2e3290d7410486a62275486060a6e378874901"
+    },
+    "external-cannbot-ops-ascendc-crash-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-crash-debug/SKILL.md",
+      "computedHash": "6890ec4e69ca151e2befa609c6f516d35dab9383603713fa8c694fa1cc8c26db"
+    },
+    "external-cannbot-ops-ascendc-direct-invoke-template": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-direct-invoke-template/SKILL.md",
+      "computedHash": "c893b1272aa89d7f42cb751e9f7783a7a0b96b65f45997b3fd4735ac2b007896"
+    },
+    "external-cannbot-ops-ascendc-docs-search": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-docs-search/SKILL.md",
+      "computedHash": "168bd59c2e8c5b0be1f817b8280512213f91bd04081b1956114f9539793e1c6d"
+    },
+    "external-cannbot-ops-ascendc-env-check": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-env-check/SKILL.md",
+      "computedHash": "3aa0ba500aab4fb621044d5929f54bbac7f3f436cc777bc102aa9bd0f541e217"
+    },
+    "external-cannbot-ops-ascendc-precision-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-precision-debug/SKILL.md",
+      "computedHash": "5ddcf0d8b2955d3fb8036ae271b8e54c468bd5c44d0c153f1d3c651a6bddf39b"
+    },
+    "external-cannbot-ops-ascendc-regbase-best-practice": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-regbase-best-practice/SKILL.md",
+      "computedHash": "bb9f9eccf1c1300c858e67118ea4efcbaa7a6f5cdf744524e9649aba142cab89"
+    },
+    "external-cannbot-ops-ascendc-runtime-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-runtime-debug/SKILL.md",
+      "computedHash": "ef682c214136701971be790af7622db42abb1459421b8b861a1b14e5aab6704d"
+    },
+    "external-cannbot-ops-ascendc-tiling-design": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ascendc-tiling-design/SKILL.md",
+      "computedHash": "5f562e959be7105ab8c7ac2d47d3d7302e6e236ee9081202d2aadb15418f207b"
+    },
+    "external-cannbot-ops-lab-tilelang-skills-tilelang-api-best-practices": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops-lab/tilelang/skills/tilelang-api-best-practices/SKILL.md",
+      "computedHash": "21ef14276d55da54f952b108cd396be8f117ed044d57db7f8a50b1caf4b70ed5"
+    },
+    "external-cannbot-ops-lab-tilelang-skills-tilelang-op-design": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops-lab/tilelang/skills/tilelang-op-design/SKILL.md",
+      "computedHash": "b0eb653a6049045b6bb681318305d985418632f59d7a907dfb798423cd472783"
+    },
+    "external-cannbot-ops-lab-tilelang-skills-tilelang-op-developer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops-lab/tilelang/skills/tilelang-op-developer/SKILL.md",
+      "computedHash": "d96d904e12831502db223dd612aed8d5393746cf6fa9a9f40a8249312847ad9c"
+    },
+    "external-cannbot-ops-lab-tilelang-skills-tilelang-programming-model-guide": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops-lab/tilelang/skills/tilelang-programming-model-guide/SKILL.md",
+      "computedHash": "5eff78a1a35819f671eb1bafbe14b0c70f43dea0092d41220bf917db4b102dbb"
+    },
+    "external-cannbot-ops-lab-tilelang-skills-tilelang-review": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops-lab/tilelang/skills/tilelang-review/SKILL.md",
+      "computedHash": "e146342d8c0965f1a1610be1798e3f119b1aba74dd2aa49ce82a076ad1f6f652"
+    },
+    "external-cannbot-ops-npu-arch": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/npu-arch/SKILL.md",
+      "computedHash": "5e20b004cf8d199d7f965fc52e4c2139b4dfcfcf338480bd7091119da1117642"
+    },
+    "external-cannbot-ops-ops-precision-standard": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ops-precision-standard/SKILL.md",
+      "computedHash": "527007cc4f74a1a6e6f2b023eda47e56f06bdfefa695ae632df43275e59b47fe"
+    },
+    "external-cannbot-ops-ops-profiling": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/ops-profiling/SKILL.md",
+      "computedHash": "febe42f4f372f077b89885a64d3a5d0161bdce71f576879ddd5c193504d15517"
+    },
+    "external-cannbot-ops-pypto-api-explore": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-api-explore/SKILL.md",
+      "computedHash": "93fb07278c09e70ab98954091d306688774caf4d5929e542ef6b028696b88a33"
+    },
+    "external-cannbot-ops-pypto-golden-generate": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-golden-generate/SKILL.md",
+      "computedHash": "41fcffb35436a28b9866279e958542bcb3a4679d28b636cc575ed9e510841724"
+    },
+    "external-cannbot-ops-pypto-intent-understand": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-intent-understand/SKILL.md",
+      "computedHash": "6d4189eb737598e79fd605e7f7dee1c36af175218ff60a78bed7e322fa41d8c1"
+    },
+    "external-cannbot-ops-pypto-op-design": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-op-design/SKILL.md",
+      "computedHash": "8007f030928b9c6aad85ae07f1f9e91297ac00344fc55b48b6c3a419178595b9"
+    },
+    "external-cannbot-ops-pypto-op-develop": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-op-develop/SKILL.md",
+      "computedHash": "2eb6b10d9aef2bcd4b8d156c75a98ef410f9d14b58a994b41cb1824eb44cf19b"
+    },
+    "external-cannbot-ops-pypto-op-perf-tune": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-op-perf-tune/SKILL.md",
+      "computedHash": "d727f9733e43053cf7f5b012d4dbc7cef68b0c6346ac1b6a73f21756f17d916d"
+    },
+    "external-cannbot-ops-pypto-precision-compare": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-precision-compare/SKILL.md",
+      "computedHash": "53e2bd9fea2bc621e84c6d378eaae91e7a84724693f1805e045897e097974573"
+    },
+    "external-cannbot-ops-pypto-precision-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/pypto-precision-debug/SKILL.md",
+      "computedHash": "3f31b119f6fd116131a11338e0983d09c20869d6b65eb0066d34b319947d3bec"
+    },
+    "external-cannbot-ops-torch-ascendc-op-extension": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/torch-ascendc-op-extension/SKILL.md",
+      "computedHash": "e59ac171d6edf7d71afbf031ac3033a04250d2ba329e97abab2b3f0114e9eaaa"
+    },
+    "external-cannbot-ops-triton-latency-optimizer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/triton-latency-optimizer/SKILL.md",
+      "computedHash": "12e2fca1716ca8d113ebbb8691b2299460469c0bdf0341236ac93637af7aa18b"
+    },
+    "external-cannbot-ops-triton-op-coding": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/triton-op-coding/SKILL.md",
+      "computedHash": "4fa9a548a433201df752e53c1a3563b0b76a862734bfa3d2e1dd65f820c7dd04"
+    },
+    "external-cannbot-ops-triton-op-designer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/triton-op-designer/SKILL.md",
+      "computedHash": "fe23bb1405ee78678a759b6f243e958de69e8e986b54ec5bcc1b28309e2597a1"
+    },
+    "external-cannbot-ops-triton-op-verifier": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/triton-op-verifier/SKILL.md",
+      "computedHash": "a9929fcbf20a41aa553256a2eb628126e43140e2c14667cd2bca0a48410cc984"
+    },
+    "external-cannbot-ops-triton-task-extractor": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/cannbot/ops/triton-task-extractor/SKILL.md",
+      "computedHash": "0009f55c4fd1e34a34c5e2747f2b5a7e98da7164bd5677eb34367b44f46d9e41"
+    },
+    "external-gitcode-ascend-analyse-coverage": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/analyse-coverage/SKILL.md",
+      "computedHash": "f9911d61dc39508eda3a079f30856d0f65a9d3256325f899ca7c19b2ef68eec2"
+    },
+    "external-gitcode-ascend-arxiv-recommendation-npu": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/arxiv-recommendation-npu/SKILL.md",
+      "computedHash": "8eb1b230a0c5b2f4be92dfd106905adeb547ff5f24d54ca337798d69316a2ba2"
+    },
+    "external-gitcode-ascend-ascend-inference-repos-copilot": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascend-inference-repos-copilot/SKILL.md",
+      "computedHash": "e74a38c5bc38ee3f44391a4080e7bf6f9dac14bd06492095a3109122853dfb91"
+    },
+    "external-gitcode-ascend-ascend-mmlab-install-suite": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascend-mmlab-install-suite/SKILL.md",
+      "computedHash": "7325d6b55a479771c8908ba915df90b3f6bee869d4ea457ba6852531791b6fcc"
+    },
+    "external-gitcode-ascend-ascend-npu-driver-install": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascend-npu-driver-install/SKILL.md",
+      "computedHash": "f34cbf5648a222e616d67f27d20d11858b4a50cbe0d558a0a045cce6a25d2a3d"
+    },
+    "external-gitcode-ascend-ascend-profiling-anomaly": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascend-profiling-anomaly/SKILL.md",
+      "computedHash": "dcc0f390e8dabc4c03e2819d7ba11398e5eeaaeab548412c5be3572b855fcd99"
+    },
+    "external-gitcode-ascend-ascend-transformer-boost": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascend-transformer-boost/SKILL.md",
+      "computedHash": "76a5d18b18844ab579aeb763489dfb7dacbc5c4558467ec0f3b52bfa83c9db57"
+    },
+    "external-gitcode-ascend-ascendc-operator-code-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-code-gen/SKILL.md",
+      "computedHash": "a389488b542f9465b56bd1a33596e9ea7a511a248c224f326f1e8141190b6bf9"
+    },
+    "external-gitcode-ascend-ascendc-operator-code-review": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-code-review/SKILL.md",
+      "computedHash": "85aeba3219b37520be0c50d5fb773e365c3865a4e886a26458c816bc022a219f"
+    },
+    "external-gitcode-ascend-ascendc-operator-compile-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-compile-debug/SKILL.md",
+      "computedHash": "c61abbcfc295dd6aee9ae67f154b587f423d819082c6f4cc2556523661f44983"
+    },
+    "external-gitcode-ascend-ascendc-operator-design": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-design/SKILL.md",
+      "computedHash": "088907533546724bf22ad8c345dbcb3671747eed299967ce04909225182c32bb"
+    },
+    "external-gitcode-ascend-ascendc-operator-dev": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-dev/SKILL.md",
+      "computedHash": "f2484bc77c5b74492a36d590e40599d7919049e63c574a81ff40301689a86576"
+    },
+    "external-gitcode-ascend-ascendc-operator-doc-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-doc-gen/SKILL.md",
+      "computedHash": "a05c31e91490792af47a2ffbc559b5be004094e788e3fcdb46b1c32b999d1b32"
+    },
+    "external-gitcode-ascend-ascendc-operator-doc-writer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-doc-writer/SKILL.md",
+      "computedHash": "a2da661d73f88169361a7048d93f1197b5e7bd4f79ced73ad5219da5d01331c1"
+    },
+    "external-gitcode-ascend-ascendc-operator-mssanitizer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-mssanitizer/SKILL.md",
+      "computedHash": "24a31b6e17d5987dbc192fd188fbd6a825294a9fcf68c2f5927bb0027febe0c8"
+    },
+    "external-gitcode-ascend-ascendc-operator-performance-eval": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-performance-eval/SKILL.md",
+      "computedHash": "716da75793494f0cb3fb501696183798e10eb3e2b4eba372b998cb839eaefb96"
+    },
+    "external-gitcode-ascend-ascendc-operator-performance-optim": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-performance-optim/SKILL.md",
+      "computedHash": "90df45bcf4e8b99a780074538c9277091eb4cd83d7140f8a2b15fbd30dde8ccb"
+    },
+    "external-gitcode-ascend-ascendc-operator-precision-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-precision-debug/SKILL.md",
+      "computedHash": "e289610b5dfca3ac4cc36cf991f69d914cc4bb321a6404cb70a373446e1da90e"
+    },
+    "external-gitcode-ascend-ascendc-operator-precision-eval": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-precision-eval/SKILL.md",
+      "computedHash": "f8aae6414c7e47c62b9eb06b319f55406a2ef48914c63b8f62255741732af46b"
+    },
+    "external-gitcode-ascend-ascendc-operator-project-init": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-project-init/SKILL.md",
+      "computedHash": "4e22efd1c61f78002a74cf43165863b6ff3dd4167f7787cd0cbda7cfc8072673"
+    },
+    "external-gitcode-ascend-ascendc-operator-testcase-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ascendc-operator-testcase-gen/SKILL.md",
+      "computedHash": "e3f68552b8a3965c4451a02f83ddcca6d0a434f28cd72b37d2ad5c4e2aaf7675"
+    },
+    "external-gitcode-ascend-atb-aclnn-operator-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-aclnn-operator-migration/SKILL.md",
+      "computedHash": "3459955ca3e815cbed4bbf50f2d8ee4e854a3c8453dbd9fc980885a8509734cb"
+    },
+    "external-gitcode-ascend-atb-aclnn-operator-replacement-designer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-aclnn-operator-replacement-designer/SKILL.md",
+      "computedHash": "a4ae037d4f59622638c4040d15e7c2ec01dcd5f9f78a2123e66ccfd418c778b4"
+    },
+    "external-gitcode-ascend-atb-csv-testcase-generator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-csv-testcase-generator/SKILL.md",
+      "computedHash": "34f083a1c958dc2940fd66f5e5dc7286c0131826b51896c1826d9a7f65d7a01c"
+    },
+    "external-gitcode-ascend-atb-csv-tester": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-csv-tester/SKILL.md",
+      "computedHash": "29249e5114d4ffd43ea6837dcc7028225bed09a939fea41a88ed62ebfdf5325c"
+    },
+    "external-gitcode-ascend-atb-debug-guide": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-debug-guide/SKILL.md",
+      "computedHash": "9ec30611e1e8d1604ed45f891a1bb16bb669ec174c16c68b83405c50d602c1db"
+    },
+    "external-gitcode-ascend-atb-nnal-installer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-nnal-installer/SKILL.md",
+      "computedHash": "b12edf780ca4c6a3ea4a8c19cfccc892e01e2b2020d4df9ed8f09aa25e04f06c"
+    },
+    "external-gitcode-ascend-atb-ops-to-aclnn-migration-workflow": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-ops-to-aclnn-migration-workflow/SKILL.md",
+      "computedHash": "8fd9ce1c9b2aa4dc090e952b7cbafbbd474164e07be0deec25a7fb0d9347a1bf"
+    },
+    "external-gitcode-ascend-atb-testframework-build": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/atb-testframework-build/SKILL.md",
+      "computedHash": "8e39b39442cb2473b9cd8b4ecfb209d18a46ba03d6306a543b533021b491828c"
+    },
+    "external-gitcode-ascend-auto-bug-fixer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/auto-bug-fixer/SKILL.md",
+      "computedHash": "b915966fb2e99500d04c53859c1a52e7194953abe2a277e41a377b0ed998d4ac"
+    },
+    "external-gitcode-ascend-auto-develop-test-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/auto-develop-test-gen/SKILL.md",
+      "computedHash": "0814b4d0cc5c633fe2bc8e2cdfc9fee1ac9753151ee0aed8f1e71d620b7421da"
+    },
+    "external-gitcode-ascend-cann-nnal-installer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/cann-nnal-installer/SKILL.md",
+      "computedHash": "fce18fb97e4c03cf4923a1ff1f689b5671bac5c609da68e461b17997df224713"
+    },
+    "external-gitcode-ascend-cann-operator-env-config": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/cann-operator-env-config/SKILL.md",
+      "computedHash": "e070f930308e394e34d18804521505d0ad4249f24107fcce5d8eaf229067b08c"
+    },
+    "external-gitcode-ascend-catlass-operator-code-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/catlass-operator-code-gen/SKILL.md",
+      "computedHash": "943180b52d4180bec6e901b6a2474729a13c6ac44ebaf21a7afc12d41e7640fd"
+    },
+    "external-gitcode-ascend-catlass-operator-design": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/catlass-operator-design/SKILL.md",
+      "computedHash": "bcb6dad338fbf0b00c8fa83f487a90c3f8cb820e675b8d6feae12349785c33b1"
+    },
+    "external-gitcode-ascend-catlass-operator-dev": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/catlass-operator-dev/SKILL.md",
+      "computedHash": "0d9ed67efaad3b2eb5838feb6df992c9d9b1d63b5f99e375917223cf4cf941a2"
+    },
+    "external-gitcode-ascend-catlass-operator-performance-optim": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/catlass-operator-performance-optim/SKILL.md",
+      "computedHash": "f64b0779535df332609bddc697ca2bfd67066a055f4f2b054b27e0db03b69445"
+    },
+    "external-gitcode-ascend-code-comprehension": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/code-comprehension/SKILL.md",
+      "computedHash": "aa2d370cfe2fac803dee29eede641adbe47f4df9ca9a9a2f88300baa7e53839a"
+    },
+    "external-gitcode-ascend-connect": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/connect/SKILL.md",
+      "computedHash": "c9bc6162f0f576233b1c1d735a3131a642d5ecb9516e2e4c8ddd41f62e12ec39"
+    },
+    "external-gitcode-ascend-coverage": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/coverage/SKILL.md",
+      "computedHash": "3ae8745db6958d03be7c56927d76af67d744ade1b1ce8494d45ffa43733d9faf"
+    },
+    "external-gitcode-ascend-debug": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/debug/SKILL.md",
+      "computedHash": "0d8cad4e076771c32be3a867b9a72596fe86cbe186993bc730e476ad0183758a"
+    },
+    "external-gitcode-ascend-deploy": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/deploy/SKILL.md",
+      "computedHash": "c3037a052ee966eb79bc823dcfca07506d3cb16f32903f8c508d0f5e890a6a96"
+    },
+    "external-gitcode-ascend-detectron2": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/detectron2/SKILL.md",
+      "computedHash": "e9354cb439c3a0499dcbf3bf0d3f469a365dcb7bf96652aea9f331008a99501f"
+    },
+    "external-gitcode-ascend-drivingsdk-ascend-model-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/drivingsdk-ascend-model-migration/SKILL.md",
+      "computedHash": "8884c7886c1835b9bc3cfd059d8fba447382f59df33b9585178c1d1e7b65af78"
+    },
+    "external-gitcode-ascend-fault_diagnose": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/fault_diagnose/SKILL.md",
+      "computedHash": "2e48f199a2b401097674e421a16f24c2b93d171d3919d338c4444b1b2aa61611"
+    },
+    "external-gitcode-ascend-k8s-check-fix": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/k8s-check-fix/SKILL.md",
+      "computedHash": "f3e4b274d7751e9d1bed0e776e9c9191c66e3b2907ebe938daf8514e5864ee04"
+    },
+    "external-gitcode-ascend-large_scale_deploy": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/large_scale_deploy/SKILL.md",
+      "computedHash": "ee9d0b75c3dc8b54082af70740073ef0b6978831944627be99eac8eb453d815a"
+    },
+    "external-gitcode-ascend-long-task": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/long-task/SKILL.md",
+      "computedHash": "5567b5306fda89a8c2dcc7040f7b30bde88acd956d4ef08375a82e6a99ce43b1"
+    },
+    "external-gitcode-ascend-megatron-change-analyzer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/megatron-change-analyzer/SKILL.md",
+      "computedHash": "cff729a8a7a4ff92047d36918819033ee957bd0ad397f5b5bfd2a41080a01f83"
+    },
+    "external-gitcode-ascend-megatron-commit-tracker": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/megatron-commit-tracker/SKILL.md",
+      "computedHash": "f5e42d8ee142f7da37164b746c2138e51d425d7c84cca48057054be35285635f"
+    },
+    "external-gitcode-ascend-megatron-impact-mapper": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/megatron-impact-mapper/SKILL.md",
+      "computedHash": "78cc7c31604640d952c34fed94d6fd437a822f7d34fcd67d3b3e5355e4e24a36"
+    },
+    "external-gitcode-ascend-megatron-migration-generator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/megatron-migration-generator/SKILL.md",
+      "computedHash": "1fb36740e5be73e6c4557d3d7b6ae36bc457da7114e66c79be26be0cd04aee0f"
+    },
+    "external-gitcode-ascend-mindspeed-fsdp2-config-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mindspeed-fsdp2-config-migration/SKILL.md",
+      "computedHash": "86f26788ee8acade52b769914570aaea85fb5cda64e68e85ceb68024565968fd"
+    },
+    "external-gitcode-ascend-mindspeed-fsdp2-data-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mindspeed-fsdp2-data-migration/SKILL.md",
+      "computedHash": "390b44ae7a37c91774c843e0f3e398082fe74fb77c790aee7814f100a86e1e03"
+    },
+    "external-gitcode-ascend-mindspeed-fsdp2-migration-main": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mindspeed-fsdp2-migration-main/SKILL.md",
+      "computedHash": "e454e404ff14160776c764c7bd230938e48ee0109dd1fb1bc04b1cb24f43967b"
+    },
+    "external-gitcode-ascend-mindspeed-fsdp2-model-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mindspeed-fsdp2-model-migration/SKILL.md",
+      "computedHash": "26f80b10e4f02f25c3364b2c8414d78415c7953c42562ecca07c9c2e7bacbc6f"
+    },
+    "external-gitcode-ascend-mindspeed-fsdp2-verification": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mindspeed-fsdp2-verification/SKILL.md",
+      "computedHash": "850cef25016d84671cae1a102bfc6f53ff30389e68f345ad89b1c824928581d5"
+    },
+    "external-gitcode-ascend-mmcv": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mmcv/SKILL.md",
+      "computedHash": "c727932ee30a2e92f625076f1465a32bb1634478ea096c1b1a7a7aec5d922852"
+    },
+    "external-gitcode-ascend-mmdet": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mmdet/SKILL.md",
+      "computedHash": "ad4bdddece653ceaa944147927150cd53dead020861c24b00e29372c5dd9665d"
+    },
+    "external-gitcode-ascend-mmdet3d": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/mmdet3d/SKILL.md",
+      "computedHash": "a9351e325e41a20d98a9069a86c1bf956248e0b1f67d83468106b7aa080fbb51"
+    },
+    "external-gitcode-ascend-model-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/model-migration/SKILL.md",
+      "computedHash": "b1889737bc553cc89ba91e7877f208fdd5da3c3d1ed8dfe490084091f1ce7276"
+    },
+    "external-gitcode-ascend-model-training": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/model-training/SKILL.md",
+      "computedHash": "e0e01e070b8ba4abe956afffdc52bf16b1b6d6002d7d2f1c6f7037d616ae6410"
+    },
+    "external-gitcode-ascend-modelscope-cli": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/modelscope-cli/SKILL.md",
+      "computedHash": "5c8555153f60fc9a20a327b4ae90c24166b3268235ec8c596255ea11f3581373"
+    },
+    "external-gitcode-ascend-msverl-daily-regression-triage": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/msverl-daily-regression-triage/SKILL.md",
+      "computedHash": "7ba6c1c8b3aad3b465cae5fad6faf79add9848dee2e0591f48446025f4dde8f8"
+    },
+    "external-gitcode-ascend-npu-adapter-reviewer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/npu-adapter-reviewer/SKILL.md",
+      "computedHash": "c735250551ebdaadc729fb135d782bb4fb58b086ea9df2d441407cea36cf8606"
+    },
+    "external-gitcode-ascend-npu-model-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/npu-model-migration/SKILL.md",
+      "computedHash": "4624c9415640af3c242d47af92e4ef0fdd9d9008332ffc2e8bf3d6e99f8d84a9"
+    },
+    "external-gitcode-ascend-pytest-writer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/pytest-writer/SKILL.md",
+      "computedHash": "7029e0ef50071eab52016cc61f1d8d671befec9d3e7e3369899e94d36c600bae"
+    },
+    "external-gitcode-ascend-python-refactoring": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/python-refactoring/SKILL.md",
+      "computedHash": "a5bfe9363a62c9808f591a2777852e7f860b797d0336872b9f57a8dc1ccedb53"
+    },
+    "external-gitcode-ascend-run-mindspeed-llm-test": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/run-mindspeed-llm-test/SKILL.md",
+      "computedHash": "2d05545f15121fc2c75635cc8cc2e4d34d0efabeb9efbe17520ebd0d86d33101"
+    },
+    "external-gitcode-ascend-security-code-review": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/security-code-review/SKILL.md",
+      "computedHash": "4104178e1c1c205985b45c28a0a9d47a2ffd7c79d1f74fdfc9cdf83c182ef391"
+    },
+    "external-gitcode-ascend-simple-vector-triton-gpu-to-npu": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/simple-vector-triton-gpu-to-npu/SKILL.md",
+      "computedHash": "749eb7517358c2439bcd01adb85a6144261b015f928967591491f035821853ca"
+    },
+    "external-gitcode-ascend-skill-auditor": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/skill-auditor/SKILL.md",
+      "computedHash": "890d3fa46b6bbed3c5f6451a19cd15bcd59537acf12d0513307dddfa0cba1250"
+    },
+    "external-gitcode-ascend-ssh-connection": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/ssh-connection/SKILL.md",
+      "computedHash": "08c5146a8b4cf91360665b5c2936734b81ab2a759a049ab11c1618e6c13e2f62"
+    },
+    "external-gitcode-ascend-swanlab-setup": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/swanlab-setup/SKILL.md",
+      "computedHash": "2acfa20c4bf8dabbdcaa5d64525943cd5d741d6b7e40a866627bc285f326a780"
+    },
+    "external-gitcode-ascend-triton-operator-code-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-code-gen/SKILL.md",
+      "computedHash": "e0471fe5d2d4dbcc5beb0c66de3ade362ef18a3ae579751a092cd9fd98d3eb67"
+    },
+    "external-gitcode-ascend-triton-operator-code-review": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-code-review/SKILL.md",
+      "computedHash": "083cc1b049ce990fc59fbd01c6fd0c0d40ba00caea19a949d77bf651e8033c99"
+    },
+    "external-gitcode-ascend-triton-operator-design": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-design/SKILL.md",
+      "computedHash": "8e51d0fbba7bc48f41a085623257562d44a63348df51206807b49dde4d435727"
+    },
+    "external-gitcode-ascend-triton-operator-dev": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-dev/SKILL.md",
+      "computedHash": "ed3d530a46acc193be1362e0ec6a98754f0d5eaffe980cf2a8677103ff75a3e3"
+    },
+    "external-gitcode-ascend-triton-operator-doc-gen": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-doc-gen/SKILL.md",
+      "computedHash": "d49d85ff37c5053df110d56ba32fc4c01d4ea42c1a19fd8b0adb1b8885059304"
+    },
+    "external-gitcode-ascend-triton-operator-env-config": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-env-config/SKILL.md",
+      "computedHash": "f80324988e2803fe2802ec9cb8bb3c3d6f0761c15f48b3420694c22d86546302"
+    },
+    "external-gitcode-ascend-triton-operator-performance-eval": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-performance-eval/SKILL.md",
+      "computedHash": "a7962fab21dbb2b5911d8c90129b60f51268448e9fbfba46e1f1e7e24006894b"
+    },
+    "external-gitcode-ascend-triton-operator-performance-optim": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-performance-optim/SKILL.md",
+      "computedHash": "74db2a811c7d0352f76ca9987626034400f40e52d005e789b49a86a86adf4aeb"
+    },
+    "external-gitcode-ascend-triton-operator-precision-eval": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/triton-operator-precision-eval/SKILL.md",
+      "computedHash": "610b6d5d35fae06c41bbec3b0741049362db8bc4928c2ae4defef55edd500c3d"
+    },
+    "external-gitcode-ascend-tunnel": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/tunnel/SKILL.md",
+      "computedHash": "5c0444e317685e748cc4601116e1df3b913ba459fc4cfc0f848b689f5fecb08a"
+    },
+    "external-gitcode-ascend-unittest-writer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/unittest-writer/SKILL.md",
+      "computedHash": "a30acef9a1df5bc6ca1e127c9255099f45b3eab08d49838b2b72b9917aedb15f"
+    },
+    "external-gitcode-ascend-vLLM-ascend_FAQ_Generator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/vLLM-ascend_FAQ_Generator/SKILL.md",
+      "computedHash": "54e25ff10e437ff401096c84b6945567db0ade70633a530b0f4b86698d18f63f"
+    },
+    "external-gitcode-ascend-vector-triton-ascend-ops-optimizer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/vector-triton-ascend-ops-optimizer/SKILL.md",
+      "computedHash": "81431703556a1c506632f6eccdd875feb0657bd6f5950424c5362825c2313df6"
+    },
+    "external-gitcode-ascend-verl-async-dapo": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/verl-async-dapo/SKILL.md",
+      "computedHash": "79dcea2350c49f47e3eb6041907126dd8d8341a3254099bb992cd1e6342042d3"
+    },
+    "external-gitcode-ascend-verl-feature-deploy": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/verl-feature-deploy/SKILL.md",
+      "computedHash": "94a1a32f67713d0cb30362051b425831ed4b71c65d3c319f984ad806ade337c8"
+    },
+    "external-gitcode-ascend-vllm-ascend-deploy": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/vllm-ascend-deploy/SKILL.md",
+      "computedHash": "7e28c2e6f8671eea31bd31eb82ec1fe365808897fd744605e23343811de3b2c6"
+    },
+    "external-gitcode-ascend-vllm-tests-failure-analysis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/gitcode-ascend/vllm-tests-failure-analysis/SKILL.md",
+      "computedHash": "53b454906e4e6214e5e59369170147a87ecf141ccf73cf04e843d5cfdf42ff91"
+    },
+    "external-mindstudio-ascend-profiler-db-explorer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/ascend-profiler-db-explorer/SKILL.md",
+      "computedHash": "bf91607e29808af6b7d3a49d1a13ffdb7c4101671fb7bf6299213e5bc8ffcecf"
+    },
+    "external-mindstudio-cluster-fast-slow-rank-detector": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/cluster-fast-slow-rank-detector/SKILL.md",
+      "computedHash": "00c3d6f158b2c206958f584febf3f6084130ef8c3ede9ea69f162c8c52a905b9"
+    },
+    "external-mindstudio-document-ux-review": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/document-ux-review/SKILL.md",
+      "computedHash": "a2b82127a3bc96c8b116d55e4d8cc3f4eae43331bce0880906ad2d6992af3bb1"
+    },
+    "external-mindstudio-gitcode-code-reviewer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/gitcode-code-reviewer/SKILL.md",
+      "computedHash": "d11a01ed58d0903ff61a1b46074dfb32dbd377b74497b73490845c991f749517"
+    },
+    "external-mindstudio-github-raw-fetch": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/github-raw-fetch/SKILL.md",
+      "computedHash": "377cf57ebe20c5b4e6b01427aef86e2c58d0b3c982776be9524c19c17d232d9b"
+    },
+    "external-mindstudio-mindstudio_profiler_data_check": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/mindstudio_profiler_data_check/SKILL.md",
+      "computedHash": "71f1ed2f67d6ba9541dfae004073936ede37513420bbac0bc7930e8e341b0e1c"
+    },
+    "external-mindstudio-msmodelslim-model-adapt": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/msmodelslim-model-adapt/SKILL.md",
+      "computedHash": "94d89f189fafb48d62f4082e6e3adf8d50981fc46fa4e46b9ae3caf07777fe63"
+    },
+    "external-mindstudio-msmodelslim-model-analysis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/msmodelslim-model-analysis/SKILL.md",
+      "computedHash": "bc6b11b9bffe7766f4c20f910cd8bb3f641340dff113efeb64f57506a797c79e"
+    },
+    "external-mindstudio-op-mfu-calculator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "external/mindstudio/op-mfu-calculator/SKILL.md",
+      "computedHash": "0c42ab47a996e1170f771113237bc8e9989ad9f610a526f2adf6b875e178558d"
+    },
+    "gitcode-merge-flow": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-tools/gitcode-merge-flow/SKILL.md",
+      "computedHash": "686a6066931d8ab16c74ccfd16412b539ce20bf14ffc0fbfccc992b0007cd8eb"
+    },
+    "github-issue-rca": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-tools/github-issue-rca/SKILL.md",
+      "computedHash": "d9c8d6528d07f0d6c8d9ad5b81d9863a51946e71c7a011e08010c71550100f9c"
+    },
+    "hccl-test": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/hccl-test/SKILL.md",
+      "computedHash": "a63f117504be369aa7f9589ddaac337b9fcd87bd3acb0e09998cac934c94d8c4"
+    },
+    "hiascend-forum-analyzer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-tools/hiascend-forum/hiascend-forum-analyzer/SKILL.md",
+      "computedHash": "b05286280b314a9d30a3249d509a210e3f4e2241aca160aae317b5ff4bbb21dc"
+    },
+    "hiascend-forum-fetcher": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-tools/hiascend-forum/hiascend-forum-fetcher/SKILL.md",
+      "computedHash": "29699f29400e34090afab0f711fc2bb24d80af45e563e2d507e4ec4c5f795dbb"
+    },
+    "inference-precision-tensor-dump-compare": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/inference-precision/inference-precision-tensor-dump-compare/SKILL.md",
+      "computedHash": "4ad9caf4f0a2989991a8aac4a6c9ac40607d88335ea55efcb4616b55ef7e8caf"
+    },
+    "inferencex-report": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/inferencex-report/SKILL.md",
+      "computedHash": "bba9b146db72fd0f955e2995e051ee0500b19b779bf088122cafa6e577841df6"
+    },
+    "migration-ascend-torchnpu-skills": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/migration-ascend-torchnpu-skills/SKILL.md",
+      "computedHash": "17fd7c016271ecf50288b6b3c7f8e1837f6400b4116f2d759efbae0b0021c0e3"
+    },
+    "mindspeed-llm-data-prep": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-llm/mindspeed-llm-data-prep/SKILL.md",
+      "computedHash": "3962136fd2235c983e4dd052ef4cc5db27957042bac321e85d24757a590e5342"
+    },
+    "mindspeed-llm-env-setup": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-llm/mindspeed-llm-env-setup/SKILL.md",
+      "computedHash": "1dcdc0d5fca7ad1590b16fdc3ca129a619516dd23a565b1059066d66e67fd152"
+    },
+    "mindspeed-llm-pipeline": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-llm/mindspeed-llm-pipeline/SKILL.md",
+      "computedHash": "a4469db6d2af59771028a5799490ea27ec962424cf90e7b7885be3de2cf2679c"
+    },
+    "mindspeed-llm-train-profiler": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/mindspeed-llm-train-profiler/SKILL.md",
+      "computedHash": "ecb73971e3fb195750114dd0888a9a9b09548fc92e93e68fa66e1572ae0b88d1"
+    },
+    "mindspeed-llm-training": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-llm/mindspeed-llm-training/SKILL.md",
+      "computedHash": "2c1b8a2213eb8603b3d57061a219a258db96063ed9e6201d984b27fcaac489dd"
+    },
+    "mindspeed-llm-weight-prep": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-llm/mindspeed-llm-weight-prep/SKILL.md",
+      "computedHash": "5d5933270d207cfdc929be566fc62a3742347e2acc29db7f65191609d8d09482"
+    },
+    "mindspeed-mm-env-setup": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-mm/mindspeed-mm-env-setup/SKILL.md",
+      "computedHash": "3b23465e480075a5b0d1ba6feedc74a714f90bdff51a616a9ed7a495a0e142c9"
+    },
+    "mindspeed-mm-generative": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-mm/mindspeed-mm-generative/SKILL.md",
+      "computedHash": "113737003a9b78b698abc95b36a0980dae3d183b70cc8e85c3bb2d168a5004da"
+    },
+    "mindspeed-mm-pipeline": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-mm/mindspeed-mm-pipeline/SKILL.md",
+      "computedHash": "e8b1d66408c86e97c113cf87bc225991dbe32aa2cf468acad1551d8571a10ab6"
+    },
+    "mindspeed-mm-train-profiler": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/mindspeed-mm-train-profiler/SKILL.md",
+      "computedHash": "7e5d836475d29809bb1514f383bc55f1281e36a1590572f9c321629638d04d89"
+    },
+    "mindspeed-mm-vlm": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-mm/mindspeed-mm-vlm/SKILL.md",
+      "computedHash": "cea741533e67ed1ac1559040a61c98bef8aeccc2cc90f774495898a0309f42d3"
+    },
+    "mindspeed-mm-weight-prep": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/mindspeed-mm/mindspeed-mm-weight-prep/SKILL.md",
+      "computedHash": "d7fbb898227821815e08a4790ff1db2c1040d15acc25ba2fa15f6bfa0ecaba28"
+    },
+    "msmodelslim-quant": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/msmodelslim/msmodelslim-quant/SKILL.md",
+      "computedHash": "d4615cf62914e5557e65b59944bdc7afe8744c354019758350ee746b72359de2"
+    },
+    "npu-docker-launcher": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/npu-docker-launcher/SKILL.md",
+      "computedHash": "de956610480fbe603416fbe424867ecb125c0b020fe3ed19f21ec6655349e658"
+    },
+    "npu-op-benchmark": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops/npu-op-benchmark/SKILL.md",
+      "computedHash": "9870e6e044c3b031bc32024a8abce8b02c8275079ef148910870ad21e621a0e6"
+    },
+    "npu-smi": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/npu-smi/SKILL.md",
+      "computedHash": "7229909e0b18f57588c65d5c4b308c52f33ffcd077e7e23a8a0ce313c0fbc72a"
+    },
+    "npu-torchair-infer": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/npu-torchair-infer/SKILL.md",
+      "computedHash": "1a96fa2829a0b868a7062b291606048f490c11bc853d1074048bd0e1087df21c"
+    },
+    "profiling-analysis": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/profiling-analysis/SKILL.md",
+      "computedHash": "495df2556bcc9c29e934653645a7880a34789ee0c99ab5af477b9611e6ebf4e5"
+    },
+    "profiling-analysis-communication": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/profiling-analysis/profiling-analysis-communication/SKILL.md",
+      "computedHash": "f045b31fde27cc5cd2d4990eeb588a4c1d3d0c2767b7c9dd338537cfafbb8124"
+    },
+    "profiling-analysis-computing": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/profiling-analysis/profiling-analysis-computing/SKILL.md",
+      "computedHash": "c22bfc2afb7a0cc98a5ed71cf91b4d4e0567dac6c770cf37a413aa2d8ef7d6d1"
+    },
+    "profiling-analysis-hostbound": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/profiling-analysis/profiling-analysis-hostbound/SKILL.md",
+      "computedHash": "cfe34568e55582cf9ddd416ea6abc6e0e1667805415fcfa6b2d7c23bc5a68d8c"
+    },
+    "pytorch-profiling-collection": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/pytorch-profiling-collection/SKILL.md",
+      "computedHash": "ee7f07f666af38ebd4fa046d38798d7c69f02585f246a5b539f789a73969caad"
+    },
+    "remote-server-guide": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/remote-server-guide/SKILL.md",
+      "computedHash": "37fa5fce989146fa26b416438cc428e00670efa9af511c2ded7ce7881dedbb96"
+    },
+    "rl-msprobe": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/rl-msprobe/SKILL.md",
+      "computedHash": "130f10a2a0c05976c40615b0ed214deb38b7e5f474fbab9fb961f32761ffa2e4"
+    },
+    "skill-creator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/skill-creator/SKILL.md",
+      "computedHash": "4a13f78be642cb5ded6abcc095b0d6bf59145697ffb11d518ff46f652bd0b0a3"
+    },
+    "torch-npu-comm-test": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/torch-npu-comm-test/SKILL.md",
+      "computedHash": "feb4e639723a7cf2c8f9b4f1da2276ff172b37c0eed0df272ee484db763fd3f3"
+    },
+    "torch_npu": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/base/torch_npu/SKILL.md",
+      "computedHash": "e78f6ab57e476c5b7745655246399519ccce0e072c5206df42af37e2cbb0d8c5"
+    },
+    "training-mfu-calculator": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/profiling/training-mfu-calculator/SKILL.md",
+      "computedHash": "3434e1f047dfeb3870355a48bf1c31e7c6b6baeaf6cf1fedfe052c76165da57c"
+    },
+    "triton-ascend-migration": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ops/triton-ascend-migration/SKILL.md",
+      "computedHash": "1cd05805811066594e9cc9b1cbec26d8126429219154971b05fcd034f975f531"
+    },
+    "verl-quickstart": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/training/verl-quickstart/SKILL.md",
+      "computedHash": "eb76d08e5c4d73eda4664570c1c72489224a2ebd6b0e72da0c9577debf6aded7"
+    },
+    "vllm-ascend": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/vllm-ascend/SKILL.md",
+      "computedHash": "9c6c6229edd87cd0ec9e9db95257d8fbe7b1f1b467d52ed69da321c690e33514"
+    },
+    "vllm-ascend-server": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/vllm-ascend-server/SKILL.md",
+      "computedHash": "4515d60cbf6fe2a180c0ced335d2ce8359aed7c0bd576c5e84f89fd6a9cab16a"
+    },
+    "vllm-bench-serve": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/vllm-bench-serve/SKILL.md",
+      "computedHash": "08c731d6b5b75989d5c9079c8dbd0f691c37464e730dcc720883982de349ca73"
+    },
+    "vllm-daily-pr-issue-tracker": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-tools/vllm-daily-pr-issue-tracker/SKILL.md",
+      "computedHash": "1bc90eb277c0ee469a256878d9b9a9f762696045acf37fa6e033d18965dec933"
+    },
+    "wan-ascend-adaptation": {
+      "source": "ascend-ai-coding/awesome-ascend-skills",
+      "sourceType": "github",
+      "skillPath": "skills/inference/wan-ascend-adaptation/SKILL.md",
+      "computedHash": "0e739ace8038da2d54504b5ae18d44746a4666d049563f2dcd107c5706ce1f58"
+    }
+  }
+}
